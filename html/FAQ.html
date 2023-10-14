@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>this FAQ'S about the Tennis</h1>
+    </header>
+
+    <section class="faq">
+      <div class="accordion" id="faqAccordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Question 1: What is Tennis?
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+            <div class="card-body">
+              Tennis is a racket sport that is played both professionally and recreationally. It involves hitting a ball back and forth over a net with the objective of scoring points. Learn more about the history and rules of tennis.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Question 2: How are Tennis Tournaments Organized?
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+            <div class="card-body">
+              Tennis tournaments are organized at various levels, from local to international events. They follow a knockout format, and players progress through rounds until a champion is determined. Learn more about the different types of tennis tournaments.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Question 2: what is grand slams?
+                </button>
+              </h2>
+            </div>
+  
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+              <div class="card-body">
+                The Grand Slam in tennis is the achievement of winning all four major championships in one discipline in a calendar year. In doubles, a team may
+              </div>
+            </div>
+          </div>
+
+        <!-- Additional FAQ items can be added here -->
+      </div>
+    </section>
+  </div>
+
+  <style>
+    /* Style for the header */
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #34495e;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+/* Style for FAQ items */
+.faq {
+  margin-top: 20px;
+}
+
+.card-body {
+  font-size: 18px;
+}
+
+/* Additional styles can be added as needed */
+
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
